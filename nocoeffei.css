@@ -1,5 +1,4 @@
 *{
-  text-align: center !important;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   color: #494e52;
   line-height: 1.2;
@@ -29,9 +28,9 @@
   font-size: .9em;
   margin-bottom: 0.5em;
   }
-  body{width: 450px;
-left: 50%;
-margin-left: -200px;}
+  body{width: 450px !important;
+left: 50%!important;
+margin-left: -225px!important;}
   p:nth-of-type(4),p:nth-of-type(5),p:nth-of-type(6){display:none!important;}
   a{color:#52adc8!important;}
 }
