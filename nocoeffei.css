@@ -16,7 +16,6 @@
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(82,173,200,0.25);
   box-sizing: border-box;
-  width: 550px !important;
   }
   h3{
   line-height: 1.2 !important;
@@ -34,13 +33,14 @@
   }
   code{
   font-family: Monaco,Consolas,"Lucida Console",monospace;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
   font-size: .75em !important;
   background: #fafafa;
   border: 1px solid #f2f3f3;
   border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.125);}
+  box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+  box-sizing: border-box;}
   p:nth-of-type(4),p:nth-of-type(5),p:nth-of-type(6){display:none!important;}
   a{color:#52adc8!important;}
   }
