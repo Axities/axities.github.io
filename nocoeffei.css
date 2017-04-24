@@ -33,6 +33,7 @@
   margin-right: 33%;
   }
   code{
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: .75em;
