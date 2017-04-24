@@ -28,9 +28,8 @@
   font-size: .9em;
   margin-bottom: 0.5em;
   }
-  body{width: 450px !important;
-left: 50%!important;
-margin-left: -225px!important;}
+  body{margin-left: auto;
+margin-right: auto;}
   p:nth-of-type(4),p:nth-of-type(5),p:nth-of-type(6){display:none!important;}
   a{color:#52adc8!important;}
 }
