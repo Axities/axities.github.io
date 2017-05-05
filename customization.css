@@ -10,7 +10,7 @@
   h1:first-of-type{
   font-size: 1.563em
   }
-  p:nth-of-type(1),p:nth-of-type(9){
+  p:nth-of-type(1),p:nth-of-type(8){
   margin: 1em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
@@ -31,7 +31,7 @@
   box-shadow: 0 1px 1px rgba(82,173,200,0.25);
   box-sizing: border-box;
   }
-  p:nth-of-type(5),p:nth-of-type(10){
+  p:nth-of-type(5),p:nth-of-type(9){
   display:none
   }
   p:nth-of-type(8){
