@@ -10,7 +10,7 @@
   h1:first-of-type{
   font-size: 1.563em
   }
-  body > p:nth-of-type(1){
+  p:nth-of-type(1){
   margin: 1em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
@@ -50,7 +50,7 @@
   font-weight: bold !important;
   font-size: .75em;
   }
-  li,p:nth-of-type(3),p:nth-of-type(5){
+  li,p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(6){
   font-size: .9em;
   margin-bottom: 0.5em;
   }
