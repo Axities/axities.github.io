@@ -10,6 +10,16 @@
   h1:first-of-type{
   font-size: 1.563em
   }
+  p:first-of-type{
+  margin: 2em 0 !important;
+  padding: 1em;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-size: .75em !important;
+  text-indent: initial;
+  background-color: #fdefef;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(238,95,91,0.25);
+  }
   p:nth-of-type(2),p:nth-of-type(5),p:nth-of-type(9),p:nth-of-type(10),p:nth-of-type(11){
   margin: 2em 0 !important;
   padding: 1em;
