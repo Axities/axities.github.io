@@ -50,7 +50,7 @@
   font-weight: bold !important;
   font-size: .75em;
   }
-  li,p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(6){
+  li,p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(6),p:nth-of-type(7){
   font-size: .9em;
   margin-bottom: 0.5em;
   }
