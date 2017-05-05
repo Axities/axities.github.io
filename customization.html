@@ -15,9 +15,9 @@
   <li>The latest version of <a href="https://mega.nz/#!V1klXT7a!6OB70Pi1Rz0aKq0ewiGUvS3Sk4JSkreZpal4Tbe90q0">HME Positions by DeKay</a></li>
   <li><a href="http://www.color-hex.com/">Hex Colors</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinates</a></li>
-  <li>The title ID and version of the <a href="https://yls8.mtheall.com/ninupdates/reports.php">HomeMenu.cia</a> for your device, firmware and region.</li>
+  <li>The title ID and version of the <a href="https://yls8.mtheall.com/ninupdates/reports.php">HomeMenu.cia</a> for your device, firmware and region</li>
   </ul>
-<p>If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not, repeat the process.</p>
+<p>If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not repeat the process.</p>
 <h3>Section I - Preperation Work</h3>
 <ol>
   <li>Download and extract the contents of <code>3DNUS1.9.rar</code> into any folder you like</li>
@@ -28,18 +28,18 @@
   <li>Download HME Positions by DeKay</li>
 </ol>
 <h3>Section II - Decompressing the <code>HomeMenu.cia</code></h3>
-<p>In this section we will be downloading, decrypting, and decompressing  your device specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
+<p>In this section we will be downloading, decrypting and decompressing your device-specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
 <ol>
   <li>Launch 3DNUS and enter the title ID and version of your Home Menu</li>
   <li>Wait for the download to finish and close the program</li>
-  <li>Rename the <code>&lt;TitleID&gt;.cia</code> to <code>"HomeMenu.cia"</code> and place it anywhere on your SD card</li>
+  <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>"HomeMenu.cia"</code> and place it anywhere on your SD card</li>
   <li>Insert the SD Card into your device</li>
   <li>Launch your device and enter GodMode9 or Decrypt9 depending on what suits you best</li>
   <ul>
       <li>GodMode9: Press (A) on <code>HomeMenu.cia</code> &#8594; CIA image options &#8594; Decrypt file (...) &#8594; Decrypt inplace</li>
-      <li>Decrypt9: Content Decryptor Options &#8594; CIA File Options &#8594; CIA Decryptor (Deep)</li>
+      <li>Decrypt9: Content Decryptor Options → CIA File Options → CIA Decryptor (Deep)</li>
   </ul>
-  <li>Once the <code>HomeMenu.cia</code> has been decrypted turn off your system and insert your SD card into your computer</li>
+  <li>Once the <code>HomeMenu.cia</code> has been decrypted, turn off your system and insert your SD card into your computer</li>
   <li>Put the <code>HomeMenu.cia</code> in the same folder as the Home Menu Rebuilding Tool</li>
   <li>Launch the Home Menu Rebuilding Tool and press (8)</li>
 </ol>
@@ -47,7 +47,7 @@
 <ol>
   <li>Launch <code>MsbtEditor.exe</code></li>
   <li>Open <code>/ExtractedRomFS/message/&lt;Region of your device&gt;_&lt;Language of your device&gt;/menu_msbt.LZ</code></li>
-  <li>This is where the text on the Sleep Menu will be located:</li>
+  <li>This is where the text of the Sleep Menu will be located:</li>
   <ul>
     <li><code>lau_b_shutdown</code></li>
     <li><code>lau_press_pow_u0</code></li>
@@ -61,9 +61,9 @@
     <li><code>lau_press_pow5_flw</code></li>
   </ul>
   <li>To change the text it will display, simply choose one of the listed options and edit the text in the left box</li>
-  <li>You can also change other text that is unrelated to the sleep menu</li>
-  <li>When you are done simply save and close the program</li>
-  <li>Launch HxD and Open <code>/ExtractedRomFS/sleep.LZ</code></li>
+  <li>You can also change other text that is unrelated to the Sleep Menu</li>
+  <li>When you are done, simply save and close the program</li>
+  <li>Launch HxD and open <code>/ExtractedRomFS/sleep.LZ</code></li>
   <li>These are the values you can modify:</li>
   <table class="tg">
     <tr>
@@ -131,8 +131,8 @@
   <li>Each one of these values is a 3 size offset (RGB), so only edit the next 3 pairs of hex</li>
   <li>After you are done replacing the hex values with the colors you desire, save</li>
 </ol>
-<h3>Section IV - Editing the Icons on the Home Menu</h3>
-<p>In this section we will be editing the color of the icons displayed on the Home Menu (Notes, Friends, Notifications, etc.)</p>
+<h3>Section IV - Editing the Icons of the Home Menu</h3>
+<p>In this section we will be editing the color of the Icons displayed on the Home Menu (Notes, Friends, Notifications, etc.)</p>
 <ol>
   <li>Start off by opening <code>/ExtractedRomFS/launcher.LZ</code> in HxD</li>
   <li>These are the values you can modify:</li>
@@ -189,13 +189,13 @@
     <td class="tg-yw4l">0x00001D80</td>
   </tr>
   </table>
-  <li>After you have saved every file you are free to close HxD</li>
+  <li>After you saved every file you are free to close HxD</li>
 </ol>
-<p>if you want to make the icons a single consistent color it will be a lot of trial and error since the icons have a gradient. Color 1 needs to be darker than Color 2, in case you want to attempt it.</p>
+<p>If you want to make the Icons one consistent color, it will be a lot of trial and error since the Icons have a gradient. Color 1 needs to be darker than color 2, in case you want to attempt it.</p>
 <h3>Section V - Editing the Hud</h3>
 <p>In this section we will be editing the elements displayed on the top screen of the Home Menu</p>
 <ol>
-  <li>Launch Cheat Engine and Open the File <code>/ExtractedRomFS/hud.LZ</code></li>
+  <li>Launch Cheat Engine and open the File <code>/ExtractedRomFS/hud.LZ</code></li>
   <ul>
     <li>If it gives you an error, just press okay and continue</li>
   </ul>
@@ -203,8 +203,8 @@
   <li>You can now edit the color and position values of elements as you please</li>
   <li>Colors are standard RGB format, for the coordinates please refer to <a href="http://i.imgur.com/CicWQW5.png">this</a> image</li>
   <ul>
-    <li>If you want to remove an element you can edit the position values of the corresponding element to something high.</li>
-    <li>This does not work for the internet bar. If you want to remove it open <code>hud.LZ</code> in HxD and change the following offsets to 00</li>
+    <li>If you want to remove an element you can edit the position values of the corresponding element to something high</li>
+    <li>This does not work for the internet bar. If you want to remove it, open <code>hud.LZ</code> in HxD and change the following offsets to 00</li>
     <li><code>0x000097E2</code></li>
     <li><code>0x000098A2</code></li>
     <li><code>0x00009962</code></li>
@@ -221,19 +221,19 @@
    </ul>
   <li>Move the HomeMenu_edited.cia to your SD Card</li>
   <li>Remove your SD Card from your computer and insert it in your device</li>
-  <li>Start GodMode9 or Decrypt9 depending on what you use, and encrypt your <code>HomeMenu_edited.cia</code></li>
-  <li>Restart your device and Install the <b>encrypted</b> .cia file with your favorite <code>.cia</code> installer. If it doesn't give you an error reset your device manually.</li>
+  <li>Depending on what you use, start GodMode9 or Decrypt9 and encrypt your <code>HomeMenu_edited.cia</code></li>
+  <li>Restart your device and install the <b>encrypted</b> .cia file with your favorite <code>.cia</code> installer. If it doesn't give you an error, reset your device manually</li>
   <li>You should now have your custom Home Menu installed!</li>
 </ol>
-<p>If you want to update your Home Menu with a newer one, you need to install a fresh <code>HomeMenu.cia</code> which you can just downlaod via 3DNUS.<p>
-<p>Keep the decrypted <code>HomeMenu_edited.cia</code> file in the folder you did your edits in, in case you want to do make changes later on.</p>
+<p>If you want to update your Home Menu with a newer one, you need to install a fresh <code>HomeMenu.cia</code> first which you can just download via 3DNUS.<p>
+<p>Keep the decrypted <code>HomeMenu_edited.cia</code> file in the folder you did your edits in, in case you want to make changes later on.</p>
 <p>If you have trouble with anything, ask on the <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0">Custom Home Menu Asset Discussion</a> Discord server.</p>
 <p>Credit goes to:<br>
-&#9679; DeKay for some of the files<br>
-&#9679; Plailect because I blatantly stole his CSS (will remove/change upon request!)<br>
-&#9679; <a href="http://homemenu.co">homemenu.co</a><br>
-&#9679; Traiver, Romulator, DeKay and everyone who contributed to <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit">the documentation</a><br>
-&#9679; Zyneros because I used his guide as a template<br>
-&#9679; Custom Home Menu Asset Discussion <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0">Discord Server</a> for the great help.</p>
+&#32;&#32;&#32;&#32;&#32;&#9679; DeKay for some of the files<br>
+&#32;&#32;&#32;&#32;&#32;&#9679; Plailect because I blatantly stole his CSS (will remove/change upon request!)<br>
+&#32;&#32;&#32;&#32;&#32;&#9679; <a href="http://homemenu.co">homemenu.co</a><br>
+&#32;&#32;&#32;&#32;&#32;&#9679; Traiver, Romulator, DeKay and everyone who contributed to <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit">the documentation</a><br>
+&#32;&#32;&#32;&#32;&#32;&#9679; Zyneros because I used his guide as a template<br>
+&#32;&#32;&#32;&#32;&#32;&#9679; Custom Home Menu Asset Discussion <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0">Discord Server</a> for the great help.</p>
 </body>
 </html>
