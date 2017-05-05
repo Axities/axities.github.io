@@ -20,19 +20,19 @@
 <p>If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not, repeat the process.</p>
 <h3>Section I - Preperation Work</h3>
 <ol>
-  <li>Download and extract the contents of <code>3DNUS1.9.rar</code> into any folder you like</li>
+  <li>Download and extract the contents of <code>3DNUS1.9.rar</code></li>
   <li>Download and extract the contents of <code>HMRT_Dev_Build_v0.7.7z</code></li>
-  <li>Download and install HxD, or alternatively download the portable version</li>
+  <li>Download and install HxD, or alternatively download and extract the portable version</li>
   <li>Download and extract the contents of <code>MSBT.Editor.Reloaded.v0.9.8.rar</code></li>
   <li>Download and install Cheat Engine 6.6</li>
   <li>Download HME Positions by DeKay</li>
 </ol>
 <h3>Section II - Decompressing the <code>HomeMenu.cia</code></h3>
-<p>In this section we will be downloading, decrypting, and decompressing your device-specific <code>HomeMenu.cia</code> in preparation for the editing process</p>
+<p>In this section we will be downloading, decrypting, and decompressing your device-specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
 <ol>
   <li>Launch 3DNUS and enter the title ID and version of your Home Menu</li>
   <li>Wait for the download to finish and close the program</li>
-  <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>"HomeMenu.cia"</code> and place it anywhere on your SD card</li>
+  <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>HomeMenu.cia</code> and place it anywhere on your SD card</li>
   <li>Insert the SD Card into your device</li>
   <li>Launch your device and enter GodMode9 or Decrypt9, depending on what you use</li>
   <ul>
@@ -127,12 +127,12 @@
         <td class="tg-yw4l">-</td>
     </tr>
   </table>
-  <li>To jump to a value without looking for it, press <code>Ctrl+G</code> and enter everything after <code>0x</code></li>
-  <li>Each one of these values is a 3 size offset (RGB), so only edit the next 3 pairs of hex</li>
+  <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything after <code>0x</code></li>
+  <li>Each one of these values is a 3 size offset (RGB), so only edit the next 3 pairs of hex for each offset</li>
   <li>After you are done replacing the hex values with the colors you desire, save</li>
 </ol>
 <h3>Section IV - Editing the icons of the Home Menu</h3>
-<p>In this section we will be editing the color of the icons displayed on the Home Menu (Notes, Friends, Notifications, etc.)</p>
+<p>In this section we will be editing the color of the icons displayed on the Home Menu. (Notes, Friends, Notifications, etc.)</p>
 <ol>
   <li>Start off by opening <code>/ExtractedRomFS/launcher.LZ</code> in HxD</li>
   <li>These are the values you can modify:</li>
@@ -168,7 +168,8 @@
         <td class="tg-yw4l">0x0003211C</td>
     </tr>
   </table>
-  <li>As before, after you are done making your edits, just save</li>
+  <li>Just as before, each value is a 3 size offset</li>
+  <li>After you are done making your edits, save</li>
   <li>Now we also need to modify the banners displayed at the top screen</li>
   <li>The files responsible for those banners are:</li>
   <ul>
@@ -189,13 +190,14 @@
     <td class="tg-yw4l">0x00001D80</td>
   </tr>
   </table>
+  <li>Again, those are 3 size offsets</li>
   <li>After you have saved every file, you are free to close HxD</li>
 </ol>
 <p></p>
 <h3>Section V - Editing the HUD</h3>
 <p>In this section we will be editing the elements displayed on the top screen of the Home Menu</p>
 <ol>
-  <li>Launch Cheat Engine and open the File <code>/ExtractedRomFS/hud.LZ</code></li>
+  <li>Launch Cheat Engine and open the file <code>/ExtractedRomFS/hud.LZ</code></li>
   <ul>
     <li>If it gives you an error, just press okay and continue</li>
   </ul>
@@ -204,7 +206,7 @@
   <li>Colors are standard RGB format, for the coordinates please refer to <a href="http://i.imgur.com/CicWQW5.png">this</a> image</li>
   <ul>
     <li>If you want to remove an element, you can edit the position values of the corresponding element to something high</li>
-    <li>This does not work for the internet bar. If you want to remove it, open <code>hud.LZ</code> in HxD and change the following offsets to 00:<br>
+    <li>This does not work for the connection status bar. If you want to remove it, open <code>hud.LZ</code> in HxD and change the following offsets to <code>00:</code><br>
     <code>0x000097E2</code><br>
     <code>0x000098A2</code><br>
     <code>0x00009962</code></li>
@@ -226,7 +228,7 @@
       <li>GodMode9: Press (A) on <code>HomeMenu_edited.cia</code> &#8594; CIA image options &#8594; Encrypt file (...) &#8594; Encrypt inplace</li>
       <li>Decrypt9: Content Decryptor Options &#8594; CIA File Options &#8594; CIA Encryptor (NCCH)</li>
   </ul> 
-  <li>Restart your device and install the <b>encrypted</b> .cia file with your favorite <code>.cia</code> installer. If it doesn't give you an error, reset your device manually</li>
+  <li>Restart your device and install the <b>encrypted</b> <code>.cia</code> file with your favorite <code>.cia</code> installer. If it doesn't give you an error, reset your device manually</li>
   <li>You should now have your custom Home Menu installed!</li>
 </ol>
 <p>If you want to update your Home Menu with a newer one, you need to install a fresh <code>HomeMenu.cia</code> first which you can just download via 3DNUS.<p>
