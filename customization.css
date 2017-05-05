@@ -34,7 +34,7 @@
   p:nth-of-type(5),p:nth-of-type(9){
   display:none
   }
-  p:nth-of-type(8){
+  p:nth-of-type(9){
   margin: 2em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
