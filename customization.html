@@ -7,29 +7,30 @@
 <p>Create/update your nand backup! When making changes to your device, there is always the chance you will brick.</p>
 <h3>What you need</h3>
 <ul>
-  <li>The latest version of <a href="https://github.com/zoltx23/3DNUS">3DNUS</a></li>
+  <li>The latest version of <a href="https://gbatemp.net/threads/3dnus.376488/">3DNUS 1.9</a></li>
   <li>The latest version of <a href="https://mega.nz/#!BhkWnI6a!QA_2cVB9kQKGpQnUlbJ7Llnn4Nm8nu5ucr5Gx_jXh4k">Home Menu Rebuilding Tool by DeKay</a></li>
   <li>The latest version of <a href="https://mh-nexus.de/en/hxd/">HxD</a></li>
   <li>The latest version of <a href="https://github.com/IcySon55/3DLandMSBTeditor/releases">MSBT Editor Reloaded</a></li>
-  <li>The latest version of <a href="http://www.cheatengine.org/download.php">Cheat Engine</a></li>
+  <li>The latest version of <a href="http://www.cheatengine.org/download.php">Cheat Engine 6.6</a></li>
   <li>The latest version of <a href="https://mega.nz/#!V1klXT7a!6OB70Pi1Rz0aKq0ewiGUvS3Sk4JSkreZpal4Tbe90q0">HME Positions by DeKay</a></li>
   <li>The latest version of <a href="http://www.color-hex.com/">Hex Colors</a></li>
   <li>The latest version of <a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinatesx</a></li>
   <li>The title ID and version of <a href="https://yls8.mtheall.com/ninupdates/reports.php">the HomeMenu.cia for your device, firmware and region.</a></li>
   </ul>
 <p>If you can't find the Home Menu in the title ID's for your Firmware, go down a Firmware version and check if that one has it. If not repeat the process</p>
-<h3>Section I - <code>Decompressing the HomeMenu.cia</code></h3>
+<h3>Section I - Preperation Work</h3>
 <ol>
-  <li>Put <code>otp_creator.bat</code> into a folder on your computer and run it</li>
-  <li>When prompted, enter your consoles serial number (shown on the back of your device underneath the barcode)</li>
-  <li>When prompted to enter an update server URL, enter <code>https://yls8.mtheall.com/ninupdates/reports.php</code></li>
-  <li>Wait for the process to finish</li>
-  <li>You will now have a <code>&lt;serialnumber&gt;_nand.bin</code> file in the same folder you put otp_creator.bat into</li>
+  <li>Download and extract the contents of <code>3DNUS1.9.rar</code>into any folder you like</li>
+  <li>Download and extract the contents of <code>HMRT_Dev_Build_v0.7.7z</code> in the same folder</li>
+  <li>Download and install HxD, or alternatively download the portable version and put it in the same folder as the previous steps</li>
+  <li>Download and extract the contents of <code>MSBT.Editor.Reloaded.v0.9.8.rar</code> in the same folder as the steps above</li>
+  <li>Download and instal Cheat Engine 6.6</li>
+  <li>Download HME Positions by DeKay and place it anywhere you can find it<li/>
 </ol>
-<h3>Section II - File setup</h3>
-<p>In this section we will be moving files in preparation for the installation process.</p>
+<h3>Section II - Decompressing the <code>HomeMenu.cia</code></h3>
+<p>In this section we will be Downloading, Decrypting and Decompressing your device specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
 <ol>
-  <li>Place the <code>&lt;serialnumber&gt;_nand.bin</code> in the a9lh folder on your SD card and rename it to <code>otp.bin</code> (if this folder does not exist, create it)</li>
+  <li>Launch 3DNUS and put in the title ID and version of your Home Menu</li>
   <li>Extract the contents of <code>SafeA9LHInstallerv2.0.6.7z</code> to the root of the SD card in your 3DS</li>
   <li>Rename the otherapp payload to <code>"otherapp.bin"</code> and place it on the root of your SD card</li>
   <li>Place the Soundhax<code>.m4a</code> file on the root of your SD card</li>
