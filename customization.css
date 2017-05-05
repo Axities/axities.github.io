@@ -10,7 +10,7 @@
   h1:first-of-type{
   font-size: 1.563em
   }
-  p:first-of-type{
+  p:nth-of-type(1){
   margin: 1em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
