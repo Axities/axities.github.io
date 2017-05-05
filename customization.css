@@ -10,7 +10,7 @@
   h1:first-of-type{
   font-size: 1.563em
   }
-  /*p:nth-of-type(1),p:nth-of-type(2),p:nth-of-type(4),p:nth-of-type(6),p:nth-of-type(7),p:nth-of-type(8){
+  p:nth-of-type(2),p:nth-of-type(4),p:nth-of-type(6),p:nth-of-type(7),p:nth-of-type(8){
   margin: 2em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
@@ -19,7 +19,7 @@
   background-color: #eef7fa;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(82,173,200,0.25);
-  box-sizing: border-box;*/
+  box-sizing: border-box;
   }
   h3{
   line-height: 1.2 !important;
@@ -45,6 +45,5 @@
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.125);
   box-sizing: border-box;}
-  p:nth-of-type(4),p:nth-of-type(5),p:nth-of-type(6){display:none!important;}
   a{color:#52adc8!important;}
 }
