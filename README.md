@@ -1,2 +1,2 @@
 # axities.github.io
-sup
+sup, my name is Dungeonfire#0512 on discord
