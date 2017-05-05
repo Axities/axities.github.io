@@ -20,7 +20,7 @@
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(238,95,91,0.25);
   }
-  p:nth-of-type(2),p:nth-of-type(5),p:nth-of-type(10),p:nth-of-type(11),p:nth-of-type(12){
+  p:nth-of-type(2),p:nth-of-type(5),p:nth-of-type(7),p:nth-of-type(10),p:nth-of-type(11),p:nth-of-type(12){
   margin: 2em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
