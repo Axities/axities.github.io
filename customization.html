@@ -13,8 +13,8 @@
   <li>The latest version of <a href="https://github.com/IcySon55/3DLandMSBTeditor/releases">MSBT Editor Reloaded</a></li>
   <li>The latest version of <a href="http://www.cheatengine.org/download.php">Cheat Engine 6.6</a></li>
   <li>The latest version of <a href="https://mega.nz/#!V1klXT7a!6OB70Pi1Rz0aKq0ewiGUvS3Sk4JSkreZpal4Tbe90q0">HME Positions by DeKay</a></li>
-  <li>The latest version of <a href="http://www.color-hex.com/">Hex Colors</a></li>
-  <li>The latest version of <a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinatesx</a></li>
+  <li><a href="http://www.color-hex.com/">Hex Colors</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinates</a></li>
   <li>The title ID and version of <a href="https://yls8.mtheall.com/ninupdates/reports.php">the HomeMenu.cia for your device, firmware and region.</a></li>
   </ul>
 <p>If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not repeat the process</p>
@@ -64,7 +64,70 @@
   <li>To change the Text it will display, simply choose one of the listed options and edit the text in the left box</li>
   <li>You can also change other Text that is unrelated to the sleep menu</li>
   <li>When you are done simply save and close the program</li>
-  
+  <li>Launch HxD and Open <code>/ExtractedRomFS/launcher.LZ</code></li>
+  <li>These are the values you can modify:</li>
+  <table class="tg">
+  <tr>
+    <th class="tg-yw4l">Description</th>
+    <th class="tg-yw4l">Bottom Screen<br></th>
+    <th class="tg-yw4l">Top Screen<br></th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Background</td>
+    <td class="tg-yw4l">0x00001260</td>
+    <td class="tg-yw4l">0x00001CD4</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Background Glow</td>
+    <td class="tg-yw4l">0x00001264</td>
+    <td class="tg-yw4l">0x00001CD8</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Background Stripes</td>
+    <td class="tg-yw4l">0x0000125C</td>
+    <td class="tg-yw4l">0x00001CD0</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Header Color</td>
+    <td class="tg-yw4l">-</td>
+    <td class="tg-yw4l">0x00001D70</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Text Color</td>
+    <td class="tg-yw4l">0x000012FC</td>
+    <td class="tg-yw4l">0x00001DA4</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Footer Color</td>
+    <td class="tg-yw4l">0x0000122C</td>
+    <td class="tg-yw4l">0x00001EA8</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Line Color</td>
+    <td class="tg-yw4l">0x00001554</td>
+    <td class="tg-yw4l">0x00001E24</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Button Text Color</td>
+    <td class="tg-yw4l">0x000014D4</td>
+    <td class="tg-yw4l">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Button Text Mask</td>
+    <td class="tg-yw4l">0x000014A0</td>
+    <td class="tg-yw4l">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Button Color</td>
+    <td class="tg-yw4l">0x0000132C 0x000013E4</td>
+    <td class="tg-yw4l">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Button Glow</td>
+    <td class="tg-yw4l">0x00001330 0x000013E8</td>
+    <td class="tg-yw4l">-</td>
+  </tr>
+</table>
 </ol>
 <p>Keep your <code>HomeMenu_edited.cia</code> file in the folder you did your edits in, in case you want to do further edits.</p>
 <p>If you have trouble with anything, ask on the <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0">Custom Home Menu Asset Discussion</a> Discord server.</p>
