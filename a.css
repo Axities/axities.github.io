@@ -33,7 +33,7 @@ p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-t
   border-radius: 4px;
   color: #CCC;
 }
-p:nth-of-type(5),p:nth-of-type(10){
+p:nth-of-type(5),p:nth-of-type(9),p:nth-of-type(10){
   display:none
 }
 h3{
