@@ -28,7 +28,7 @@
   background-color: #eef7fa;
   border-radius: 4px;
   }
-  p:nth-of-type(5),p:nth-of-type(10){
+  p:nth-of-type(5),p:nth-of-type(9),p:nth-of-type(10){
   display:none
   }
   h3{
