@@ -1,10 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("https://axities.github.io/customization.html") {
 *{
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-  color: #DDD;
+  color: #BBB;
   line-height: 1.5;
 }
 html{
-  background: #494E53 !important;
+  background: #131313 !important;
 }
   .tg  {border-collapse:collapse;border-spacing:0;margin: 0.9em 0 !important;}
   .tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-size:0.9em}
@@ -19,32 +22,22 @@ p:nth-of-type(1),p:nth-of-type(8){
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .9em !important;
   text-indent: initial;
-  background-color: #fdefef;
+  background-color: #291C1C;
   border-radius: 4px;
-  color: #333;
+  color: #CCC;
 }
-p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13){
+p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-type(11){
   margin: 2em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .9em !important;
   text-indent: initial;
-  background-color: #eef7fa;
+  background-color: #151D20;
   border-radius: 4px;
-  color: #333;
+  color: #CCC;
 }
 p:nth-of-type(5),p:nth-of-type(10){
   display:none
-}
-  p:nth-of-type(9),p:nth-of-type(11){
-  margin: 2em 0 !important;
-  padding: 1em;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-  font-size: .9em !important;
-  text-indent: initial;
-  background-color: #fef4e6;
-  border-radius: 4px;
-  color: #333;
 }
 h3{
   line-height: 1.5 !important;
@@ -57,7 +50,7 @@ li{
   margin-bottom: 0.5em;
 }
 p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(6),p:nth-of-type(7){
-  color: #DDD !important;
+  color: #CCC !important;
 }
   body{
   margin-left: 30%;
@@ -68,10 +61,10 @@ code{
   padding-top: 0.15rem;
   padding-bottom: 0.15rem;
   font-size: .9em !important;
-  background: #EEE;
-  border: 1px solid #f2f3f3;
+  background: #161616;
+  border: 1px solid #202020;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #333;}
+  color: #CCC;}
   a{color:#52adc8!important;}
 }
