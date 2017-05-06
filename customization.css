@@ -10,7 +10,7 @@
   h1:first-of-type{
   font-size: 1.563em
   }
-  p:nth-of-type(1),p:nth-of-type(8){
+  p:nth-of-type(1),p:nth-of-type(8),p:nth-of-type(9),p:nth-of-type(11){
   margin: 1em 0 !important;
   padding: 1em;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
@@ -30,15 +30,6 @@
   }
   p:nth-of-type(5),p:nth-of-type(10){
   display:none
-  }
-  p:nth-of-type(9),p:nth-of-type(11){
-  margin: 2em 0 !important;
-  padding: 1em;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-  font-size: .9em !important;
-  text-indent: initial;
-  background-color: #fef4e6;
-  border-radius: 4px;
   }
   h3{
   line-height: 1.5 !important;
