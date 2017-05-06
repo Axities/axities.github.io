@@ -1,0 +1,73 @@
+*{
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  color: #DDD;
+  line-height: 1.5;
+}
+html{
+  background: #494E53 !important;
+}
+  .tg  {border-collapse:collapse;border-spacing:0;margin: 0.9em 0 !important;}
+  .tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-size:0.9em}
+  .tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-size:0.9em}
+  .tg .tg-yw4l{vertical-align:top}
+h1:first-of-type{
+  font-size: 1.563em
+}
+p:nth-of-type(1),p:nth-of-type(8){
+  margin: 1em 0 !important;
+  padding: 1em;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-size: .9em !important;
+  text-indent: initial;
+  background-color: #fdefef;
+  border-radius: 4px;
+}
+p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13){
+  margin: 2em 0 !important;
+  padding: 1em;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-size: .9em !important;
+  text-indent: initial;
+  background-color: #eef7fa;
+  border-radius: 4px;
+}
+p:nth-of-type(5),p:nth-of-type(10){
+  display:none
+}
+  p:nth-of-type(9),p:nth-of-type(11){
+  margin: 2em 0 !important;
+  padding: 1em;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-size: .9em !important;
+  text-indent: initial;
+  background-color: #fef4e6;
+  border-radius: 4px;
+}
+h3{
+  line-height: 1.5 !important;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif !important;
+  font-weight: bold !important;
+  font-size: .9em;
+}
+li{
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(6),p:nth-of-type(7){
+  color: #DDD !important;
+}
+  body{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+code{
+  font-family: Monaco,Consolas,"Lucida Console",monospace !important;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  font-size: .9em !important;
+  background: #EEE;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  box-sizing: border-box;}
+  a{color:#52adc8!important;}
+}
