@@ -61,9 +61,7 @@ code{
   padding-bottom: 0.15rem;
   font-size: .9em !important;
   color: #CCC;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    font-size: .75em;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+  border-radius: 4px;
+  background: #434C5E;
+  border-radius: 0 1px 1px #2E3440
 }
