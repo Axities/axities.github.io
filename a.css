@@ -4,7 +4,7 @@
   line-height: 1.5;
 }
 html{
-  background: #131313 !important;
+  background: #2E3440 !important;
 }
   .tg  {border-collapse:collapse;border-spacing:0;margin: 0.9em 0 !important;}
   .tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-size:0.9em}
@@ -19,9 +19,10 @@ p:nth-of-type(1),p:nth-of-type(8){
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .9em !important;
   text-indent: initial;
-  background-color: #291C1C;
+  background: #8E4E5F !important;
+  box-shadow:0 1px 1px #BF616A !important;
   border-radius: 4px;
-  color: #CCC;
+  color: #CCC !important;
 }
 p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-type(11){
   margin: 2em 0 !important;
@@ -29,9 +30,10 @@ p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-t
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .9em !important;
   text-indent: initial;
-  background-color: #151D20;
+  background-color: #434C5E !important;
+  box-shadow: 0 1px 1px #434C5E!important;
+	color: #CCC !important;
   border-radius: 4px;
-  color: #CCC;
 }
 p:nth-of-type(5),p:nth-of-type(8),p:nth-of-type(10){
   display:none
@@ -58,10 +60,10 @@ code{
   padding-top: 0.15rem;
   padding-bottom: 0.15rem;
   font-size: .9em !important;
-  background: #161616;
-  border: 1px solid #202020;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #CCC;}
-  a{color:#52adc8!important;}
+  color: #CCC;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: .75em;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
 }
