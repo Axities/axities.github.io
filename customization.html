@@ -15,7 +15,7 @@
   <li>The latest version of <a href="https://mega.nz/#!V1klXT7a!6OB70Pi1Rz0aKq0ewiGUvS3Sk4JSkreZpal4Tbe90q0">HME Positions by DeKay</a></li>
   <li><a href="http://www.color-hex.com/">Hex Colors</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinates</a></li>
-  <li>The title ID and version of the <a href="https://yls8.mtheall.com/ninupdates/reports.php">HomeMenu.cia</a> for your device, firmware and region</li>
+  <li>The title ID and version of the <a href="https://pastebin.com/NxMrrjqw">HomeMenu.cia</a> for your device, firmware and region</li>
   </ul>
 <p>If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not, repeat the process.</p>
 <h3>Section I - Preperation Work</h3>
@@ -26,6 +26,7 @@
   <li>Download and extract the contents of <code>MSBT.Editor.Reloaded.v0.9.8.rar</code></li>
   <li>Download and install Cheat Engine 6.6</li>
   <li>Download HME Positions by DeKay</li>
+  <img src="http://i.imgur.com/EQBcu73.png">
 </ol>
 <h3>Section II - Decompressing the <code>HomeMenu.cia</code></h3>
 <p>In this section we will be downloading, decrypting, and decompressing your device-specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
@@ -42,6 +43,7 @@
   <li>Once the <code>HomeMenu.cia</code> has been decrypted, turn off your system and insert your SD card into your computer</li>
   <li>Put the <code>HomeMenu.cia</code> in the same folder as the Home Menu Rebuilding Tool</li>
   <li>Launch the Home Menu Rebuilding Tool and press (8)</li>
+  <img src="http://i.imgur.com/NUpNu78.png">
 </ol>
 <h3>Section III - Editing the Sleep Menu</h3>
 <ol>
@@ -63,6 +65,7 @@
   <li>To change the text it will display, simply choose one of the listed options and edit the text in the left box</li>
   <li>You can also change other text that is unrelated to the Sleep Menu</li>
   <li>When you are done, simply save and close the program</li>
+  <img src="http://i.imgur.com/cr6y5BW.png">
   <li>Launch HxD and open <code>/ExtractedRomFS/sleep.LZ</code></li>
   <li>These are the values you can modify:</li>
   <table class="tg">
@@ -129,10 +132,8 @@
   </table>
   <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything after <code>0x</code></li>
   <li>Each one of these values is a 3 size offset (RGB), so only edit the next 3 pairs of hex for each offset</li>
-  <ul>
-    <li>A visualization of what you want to edit: <code>46</code> <code>46</code> <code>46</code> (Those are example values)</li>
-  </ul>
   <li>After you are done replacing the hex values with the colors you desire, save</li>
+  <img src="http://i.imgur.com/iJCByR4.png">
 </ol>
 <h3>Section IV - Editing the icons of the Home Menu</h3>
 <p>In this section we will be editing the color of the icons displayed on the Home Menu. (Notes, Friends, Notifications, etc.)</p>
@@ -206,7 +207,8 @@
   </ul>
   <li>Drag &#38; drop the <code>HME_Positions_By_DeKay.CT</code> in the Cheat Engine window</li>
   <li>You can now edit the color and position values of elements as you please</li>
-  <li>Colors are standard RGB format, for the coordinates please refer to <a href="http://i.imgur.com/CicWQW5.png">this</a> image</li>
+  <li>Colors are standard RGB format, for the coordinates please refer to this image:</li>
+  <img src="http://i.imgur.com/CicWQW5.png">
   <ul>
     <li>If you want to remove an element, you can edit the position values of the corresponding element to something high</li>
     <li>This does not work for the connection status bar. If you want to remove it, open <code>hud.LZ</code> in HxD and change the following offsets to <code>00</code>:<br>
@@ -233,6 +235,13 @@
   </ul> 
   <li>Restart your device and install the <b>encrypted</b> <code>.cia</code> file with your favorite <code>.cia</code> installer. If it doesn't give you an error, reset your device manually</li>
   <li>You should now have your custom Home Menu installed!</li>
+  <ul>
+    <li>Here a few pictures of what my Home Menu looks like: (This is almost entirely copied from Zyneros' Home Menu theme, because I actually really like it)</li>
+    <img src="http://i.imgur.com/vLtDCKl.png">
+    <img src="http://i.imgur.com/ePmBgDV.png">
+    <img src="http://i.imgur.com/3TgcJ3M.png">
+    <img src="http://i.imgur.com/tSHNkrw.png">
+  </ul>
 </ol>
 <p><a href="https://axities.github.io/troubleshooting.html">Help, I think something bad happened.</a></p>
 <p>If you want to update your Home Menu with a newer one, you need to install a fresh <code>HomeMenu.cia</code> first which you can just download via 3DNUS.<p>
