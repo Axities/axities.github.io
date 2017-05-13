@@ -6,7 +6,7 @@
 html{
   background: #2E3440 !important;
 }
-a{color: #52adc8}
+a{color: #7694b8; text-decoration:none}
   .tg  {border-collapse:collapse;border-spacing:0;margin: 0.9em 0 !important;}
   .tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-size:0.9em}
   .tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-size:0.9em}
@@ -31,11 +31,12 @@ p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-t
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .9em !important;
   text-indent: initial;
-  background-color: #434C5E !important;
-  box-shadow: 0 1px 1px #434C5E!important;
-	color: #CCC !important;
+  background-color: #7e4d57; !important;
+  box-shadow: 0 1px 1px rgba(191,97,106,0.25) !important;
+  color: #CCC !important;
   border-radius: 4px;
 }
+p:nth-of-type(2) a,p:nth-of-type(12) a,p:nth-of-type(13) a,p:nth-of-type(9) a,p:nth-of-type(11) a{color:#828997!important; text-decoration:none!important}
 p:nth-of-type(5),p:nth-of-type(8),p:nth-of-type(10){
   display:none
 }
@@ -60,9 +61,18 @@ code{
   font-family: Monaco,Consolas,"Lucida Console",monospace !important;
   padding-top: 0.15rem;
   padding-bottom: 0.15rem;
-  font-size: .9em !important;
-  color: #CCC;
-  border-radius: 4px;
+  font-size: .9em;
   background: #434C5E;
-  border-radius: 0 1px 1px #2E3440
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+}
+ol ul:nth-of-type(3) li img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 }
