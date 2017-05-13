@@ -67,7 +67,7 @@ code{
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.125);
 }
-ol ul:nth-of-type(3) li img{
+img{
     position: absolute;
     margin: auto;
     top: 0;
