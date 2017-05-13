@@ -32,8 +32,8 @@ p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-t
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .9em !important;
   text-indent: initial;
-  background-color: #7e4d57; !important;
-  box-shadow: 0 1px 1px rgba(191,97,106,0.25) !important;
+  background-color: #485e7b; !important;
+  box-shadow: 0 1px 1px rgba(94,129,172,0.25) !important;
   color: #CCC !important;
   border-radius: 4px;
 }
