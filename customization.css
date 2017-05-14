@@ -29,7 +29,7 @@ p:nth-of-type(1),p:nth-of-type(8){
   background: #8E4E5F !important;
   box-shadow:0 1px 1px #BF616A !important;
   border-radius: 4px;
-  color: #CCC !important;
+  color: #D8DEE9; !important;
 }
 p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-type(11){
   margin: 2em 0 !important;
@@ -40,7 +40,7 @@ p:nth-of-type(2),p:nth-of-type(12),p:nth-of-type(13),p:nth-of-type(9),p:nth-of-t
   text-indent: initial;
   background-color: #485e7b; !important;
   box-shadow: 0 1px 1px rgba(94,129,172,0.25) !important;
-  color: #CCC !important;
+  color: #D8DEE9; !important;
   border-radius: 4px;
 }
 p:nth-of-type(2) a,p:nth-of-type(12) a,p:nth-of-type(13) a,p:nth-of-type(9) a,p:nth-of-type(11) a{color:#8ea7c5;!important; text-decoration:none}
