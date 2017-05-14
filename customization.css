@@ -6,6 +6,10 @@
 html{
   background: #2E3440 !important;
 }
+img[src="http://i.imgur.com/u15K8W6.png"]{
+  filter: brightness(115%) !important;
+  -webkit-filter: brightness(115%) !important;
+}
 a{color: #7694b8; text-decoration:none}
 a:hover{color:#7694b8; text-decoration:underline}
   .tg  {border-collapse:collapse;border-spacing:0;margin: 0.9em 0 !important;}
