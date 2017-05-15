@@ -19,6 +19,9 @@ a:hover{color:#7694b8; text-decoration:underline}
 h1:first-of-type{
   font-size: 1.563em
 }
+span{
+color: #7694b8
+}
 p:nth-of-type(1),p:nth-of-type(8){
   margin: 1em 0 !important;
   padding: 1em;
