@@ -36,19 +36,19 @@
   <li>Wait for the download to finish and close the program</li>
   <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>HomeMenu.cia</code> and place it anywhere onto your SD card</li>
   <li>Insert the SD Card into your device</li>
-  <li>Launch your device and enter GodMode9 or Decrypt9, depending on what you use</li>
+  <li>Launch your device and enter <b>GodMode9</b> or <b>Decrypt9</b>, depending on what you use</li>
   <ul>
     <li><b>GodMode9</b>: Press (A) on <code>HomeMenu.cia</code> &#8594; CIA image options &#8594; Decrypt file (...) &#8594; Decrypt inplace</li>
     <li><b>Decrypt9</b>: Content Decryptor Options &#8594; CIA File Options &#8594; CIA Decryptor (Deep)</li>
   </ul>
   <li>Once the <code>HomeMenu.cia</code> has been decrypted, turn off your system and insert your SD card into your computer</li>
-  <li>Put the <code>HomeMenu.cia</code> in the same folder as the Home Menu Rebuilding Tool</li>
+  <li>Put the <code>HomeMenu.cia</code> in the same folder as the <b>Home Menu Rebuilding Tool</b></li>
   <li>Launch the Home Menu Rebuilding Tool and press (8)</li>
   <img src="http://i.imgur.com/NUpNu78.png">
 </ol>
 <h3>Section III - Editing the Sleep Menu</h3>
 <ol>
-  <li>Launch <code>MsbtEditor.exe</code></li>
+  <li>Launch MsbtEditor</li>
   <li>Open<br><code>/ExtractedRomFS/message/&lt;Region of your device&gt;_&lt;Language of your device&gt;/menu_msbt.LZ</code></li>
   <li>This is where the text of the Sleep Menu will be located:</li>
   <ul>
@@ -64,7 +64,7 @@
     <li><code>lau_press_pow5_flw</code></li>
   </ul>
   <li>To change the text, choose one of the strings from the list on the left and edit the text in the top left box</li>
-  <li>You can change any other text that is unrelated to the Sleep Menu</li>
+  <li>You can change any other text that is unrelated to the Sleep Menu if you like</li>
   <li>When you are done, simply save and close the program</li>
   <img src="http://i.imgur.com/cr6y5BW.png">
   <li>Launch HxD and open <code>/ExtractedRomFS/sleep.LZ</code></li>
@@ -131,11 +131,11 @@
         <td class="tg-yw4l">-</td>
     </tr>
   </table>
-  <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything excluding <code>0x</code></li>
+  <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything from the offset value excluding <code>0x</code></li>
   <li>Each of these values are 3 size offsets, so only edit the next 3 pairs of hex for each offset</li>
   <img src="http://i.imgur.com/u15K8W6.png">
   <ul>
-    <li>Use values like <code>#213BBD</code> instead of <code>(33,59,189)</code>. They are both the same color, but only the first is supported
+    <li>Use values like <code>#213BBD</code> instead of <code>(33,59,189)</code>. They are both the same color, but only the first format is supported
   </ul>
   <li>After you are done replacing the hex values with the colors you desire, save</li>
 </ol>
