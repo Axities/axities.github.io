@@ -34,7 +34,7 @@
 <ol>
   <li>Launch 3DNUS and enter the title ID and version of your Home Menu</li>
   <li>Wait for the download to finish and close the program</li>
-  <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>HomeMenu.cia</code> and place it anywhere on your SD card</li>
+  <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>HomeMenu.cia</code> and place it anywhere onto your SD card</li>
   <li>Insert the SD Card into your device</li>
   <li>Launch your device and enter GodMode9 or Decrypt9, depending on what you use</li>
   <ul>
@@ -63,7 +63,7 @@
     <li><code>lau_press_pow5</code></li>
     <li><code>lau_press_pow5_flw</code></li>
   </ul>
-  <li>To change the text it will display, simply choose one of the listed options and edit the text in the left box</li>
+  <li>To change the text, simply choose one of the listed options and edit the text in the left box</li>
   <li>You can also change other text that is unrelated to the Sleep Menu</li>
   <li>When you are done, simply save and close the program</li>
   <img src="http://i.imgur.com/cr6y5BW.png">
@@ -131,8 +131,8 @@
         <td class="tg-yw4l">-</td>
     </tr>
   </table>
-  <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything after <code>0x</code></li>
-  <li>Each of these values is a 3 size offset, so only edit the next 3 pairs of hex for each offset</li>
+  <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything excluding <code>0x</code></li>
+  <li>Each of these values are 3 size offsets, so only edit the next 3 pairs of hex for each offset</li>
   <img src="http://i.imgur.com/u15K8W6.png">
   <ul>
     <li>Use values like <code>#213BBD</code> instead of <code>(33,59,189)</code>. They are both the same color, but only the first is supported
@@ -207,14 +207,14 @@
 <ol>
   <li>Launch Cheat Engine and open the file <code>/ExtractedRomFS/hud.LZ</code></li>
   <ul>
-    <li>If it gives you an error, just press okay and continue</li>
+    <li>If an error occurs, just press okay and continue</li>
   </ul>
   <li>Drag &#38; drop the <code>HME_Positions_By_DeKay.CT</code> in the Cheat Engine window</li>
   <li>You can now edit the color and position values of elements as you please</li>
   <li>Colors are standard RGB format, for the coordinates please refer to this image by Zyneros:</li>
   <img src="http://i.imgur.com/CicWQW5.png">
   <ul>
-    <li>If you want to remove an element, you can edit the position values of the corresponding element to something high</li>
+    <li>If you want to remove an element, you can edit the position values of the corresponding element to a very high number</li>
     <li>This does not work for the connection status bar. If you want to remove it, open <code>hud.LZ</code> in HxD and change the following offsets to <code>00</code>:<br>
     <code>0x000097E2</code><br>
     <code>0x000098A2</code><br>
@@ -230,14 +230,14 @@
    <ul>
      <li>If you accidentally closed the prompt, open it up again and press 6 &#8594; 2 &#8594; 3</li>
    </ul>
-  <li>Move the HomeMenu_edited.cia to your SD Card</li>
-  <li>Remove your SD Card from your computer and insert it in your device</li>
+  <li>Move the <code>HomeMenu_edited.cia</code> to your SD Card</li>
+  <li>Remove the SD Card from your computer and insert it into your device</li>
   <li>Launch your device and enter GodMode9 or Decrypt9, depending on what you use</li>
   <ul>
       <li><b>GodMode9</b>: Press (A) on <code>HomeMenu_edited.cia</code> &#8594; CIA image options &#8594; Encrypt file (...) &#8594; Encrypt inplace</li>
       <li><b>Decrypt9</b>: Content Decryptor Options &#8594; CIA File Options &#8594; CIA Encryptor (NCCH)</li>
   </ul> 
-  <li>Restart your device and install the <b>encrypted</b> <code>.cia</code> file with your favorite <code>.cia</code> installer. If it doesn't give you an error, reset your device manually</li>
+  <li>Restart your device and install the <b>encrypted</b> <code>.cia</code> file with your favorite <code>.cia</code> installer. If no error occurs, reset your device manually</li>
   <li>You should now have your custom Home Menu installed!</li>
   <ul>
     <li>Here a few pictures of what my Home Menu looks like: (This is almost entirely copied from Zyneros' Home Menu theme, because I actually really like it)</li>
