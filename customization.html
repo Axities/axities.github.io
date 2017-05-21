@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/customization.css">
 <h1>Get Started</h1>
 <h3>My name is <span>Dungeonfire#0512</span> on Discord if you have any suggestions</h3>
-<p>Create/update your nand backup! When making changes to your device, there is always the chance you will brick.</p>
+<p class="red">Create/update your nand backup! When making changes to your device, there is always the chance you will brick.</p>
 <h3>In this guide we will be customizing the looks of your Home and Sleep Menu. It will certainly not cover everything that you are able to customize, but this guide should give you an idea as to what extent you can personalize your device. If you would like to customize aspects of it that are not listed on here, I suggest checking out the <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit">documentation</a> by Team <a href="http://homemenu.co/">homemenu.co</a></h3>
 <ul>
   <li>The latest version of <a href="https://gbatemp.net/threads/3dnus.376488/">3DNUS 1.9</a></li>
@@ -18,7 +18,7 @@
   <li><a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinates</a></li>
   <li>The title ID and version of the <a href="https://pastebin.com/NxMrrjqw">HomeMenu.cia</a> for your device, firmware and region</li>
   </ul>
-<p>If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not, repeat the process.</p>
+<p class="blue">If you can't find the Home Menu in the title IDs for your Firmware, go down a Firmware version and check if that one has it. If not, repeat the process.</p>
 <h3>Section I - Preperation Work</h3>
 <ol>
   <li>Download and extract the contents of <code>3DNUS1.9.rar</code></li>
@@ -27,7 +27,7 @@
   <li>Download and extract the contents of <code>MSBT.Editor.Reloaded.v0.9.8.rar</code></li>
   <li>Download and install Cheat Engine 6.6</li>
   <li>Download HME Positions by DeKay</li>
-  <img src="http://i.imgur.com/EQBcu73.png">
+  <p class="blue"><img src="http://i.imgur.com/EQBcu73.png"></p>
 </ol>
 <h3>Section II - Decompressing the <code>HomeMenu.cia</code></h3>
 <p>In this section we will be downloading, decrypting, and decompressing your device-specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
@@ -44,7 +44,7 @@
   <li>Once the <code>HomeMenu.cia</code> has been decrypted, turn off your system and insert your SD card into your computer</li>
   <li>Put the <code>HomeMenu.cia</code> in the same folder as the <b>Home Menu Rebuilding Tool</b></li>
   <li>Launch the Home Menu Rebuilding Tool and press (8)</li>
-  <img src="http://i.imgur.com/NUpNu78.png">
+  <p class="blue"><img src="http://i.imgur.com/NUpNu78.png">
 </ol>
 <h3>Section III - Editing the Sleep Menu</h3>
 <ol>
@@ -66,7 +66,7 @@
   <li>To change the text, choose one of the strings from the list on the left and edit the text in the top left box</li>
   <li>You can change any other text that is unrelated to the Sleep Menu if you like</li>
   <li>When you are done, simply save and close the program</li>
-  <img src="http://i.imgur.com/cr6y5BW.png">
+  <p class="blue"><img src="http://i.imgur.com/cr6y5BW.png"></p>
   <li>Launch HxD and open <code>/ExtractedRomFS/sleep.LZ</code></li>
   <li>These are the values you can modify:</li>
   <table class="tg">
@@ -133,7 +133,7 @@
   </table>
   <li>To jump to a value without looking for it manually, press <code>Ctrl+G</code> and enter everything from the offset value excluding <code>0x</code></li>
   <li>Each of these values are 3 size offsets, so only edit the next 3 pairs of hex for each offset</li>
-  <img src="http://i.imgur.com/u15K8W6.png">
+  <p class="blue"><img src="http://i.imgur.com/u15K8W6.png"></p>
   <ul>
     <li>Use values like <code>#213BBD</code> instead of <code>(33,59,189)</code>. They are both the same color, but only the first format is supported
   </ul>
@@ -212,7 +212,7 @@
   <li>Drag &#38; drop the <code>HME_Positions_By_DeKay.CT</code> in the Cheat Engine window</li>
   <li>You can now edit the color- and position values of elements as you please</li>
   <li>Colors are standard RGB format; for the coordinates please refer to this image by Zyneros:</li>
-  <img src="http://i.imgur.com/CicWQW5.png">
+  <p class="blue"><img src="http://i.imgur.com/CicWQW5.png"></p>
   <ul>
     <li>If you want to remove an element, you can edit the position values of the corresponding element to a very high number</li>
     <li>This does not work for the connection status bar. If you want to remove it, open <code>hud.LZ</code> in HxD and change the following offsets to <code>00</code>:<br>
@@ -246,10 +246,10 @@
   </ul>
 </ol>
 <p><a href="https://axities.github.io/troubleshooting.html">Help, I think something bad happened.</a></p>
-<p>If you want to update your Home Menu with a newer one, you need to install a fresh <code>HomeMenu.cia</code> first which you can just download via 3DNUS.<p>
-<p>Keep the decrypted <code>HomeMenu_edited.cia</code> file in the folder you did your edits in, in case you want to make changes later on.</p>
-<p>If you have trouble with anything, ask on the <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0">Custom Home Menu Asset Discussion</a> Discord server.</p>
-<p>Credit goes to:<br>
+<p class="blue">If you want to update your Home Menu with a newer one, you need to install a fresh <code>HomeMenu.cia</code> first which you can just download via 3DNUS.<p>
+<p class="blue">Keep the decrypted <code>HomeMenu_edited.cia</code> file in the folder you did your edits in, in case you want to make changes later on.</p>
+<p class="blue">If you have trouble with anything, ask on the <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0">Custom Home Menu Asset Discussion</a> Discord server.</p>
+<p class="blue">Credit goes to:<br>
 &#9679; DeKay for some of the files<br>
 &#9679; <a href="https://github.com/mmistakes/minimal-mistakes">Minimal Mistakes</a> since I blatantly stole some of their CSS (will remove/change upon request!)<br>
 &#9679; <a href="http://homemenu.co">homemenu.co</a> (currently down)<br>
