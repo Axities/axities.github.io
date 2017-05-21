@@ -46,7 +46,16 @@ color: #7694b8
   color: #D8DEE9; !important;
   border-radius: 4px;
 }
-.blue:nth-of-type(2) img, .blue:nth-of-type(4) img{
+.img{
+  margin: 2em 0 !important;
+  padding: 1em;
+  font-weight: bold;
+  text-indent: initial;
+  background-color: #485e7b; !important;
+  box-shadow: 0 1px 1px rgba(94,129,172,0.25) !important;
+  border-radius: 4px;
+}
+.img{
   width: 100%
 }
 .blue a{color:#8ea7c5;!important; text-decoration:none}
