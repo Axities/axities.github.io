@@ -46,6 +46,9 @@ color: #7694b8
   color: #D8DEE9; !important;
   border-radius: 4px;
 }
+.blue img{
+  width: 100%
+}
 p:nth-of-type(2) a,p:nth-of-type(12) a,p:nth-of-type(13) a,p:nth-of-type(9) a,p:nth-of-type(11) a{color:#8ea7c5;!important; text-decoration:none}
 p:nth-of-type(2) a:hover,p:nth-of-type(12) a:hover,p:nth-of-type(13) a:hover,p:nth-of-type(9) a:hover,p:nth-of-type(11) a:hover{text-decoration:underline!important}
 p:nth-of-type(5),p:nth-of-type(8),p:nth-of-type(10){
