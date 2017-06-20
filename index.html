@@ -12,7 +12,6 @@
 <hr>
 <h3>Prerequisites:</h3>
 <ul>
-  <li>The latest version of <a href="https://gbatemp.net/attachments/3dsnus1-9-rar.17545/">3DNUS 1.9</a></li>
   <li>The latest version of <a href="https://mega.nz/#!BhkWnI6a!QA_2cVB9kQKGpQnUlbJ7Llnn4Nm8nu5ucr5Gx_jXh4k">Home Menu Rebuilding Tool by DeKay</a></li>
   <li>The latest version of <a href="https://mh-nexus.de/en/downloads.php?product=HxD">HxD</a></li>
   <li>The latest version of <a href="https://github.com/IcySon55/3DLandMSBTeditor/releases">MSBT Editor Reloaded</a></li>
@@ -20,32 +19,34 @@
   <li>The latest version of <a href="https://mega.nz/#!V1klXT7a!6OB70Pi1Rz0aKq0ewiGUvS3Sk4JSkreZpal4Tbe90q0">HME Positions by DeKay</a></li>
   <li><a href="http://www.color-hex.com/">Hex Colors</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Coordinate_system">Knowledge of how to work with Coordinates</a></li>
-  <li>The title ID and version of the <a href="https://pastebin.com/raw/NxMrrjqw">HomeMenu.cia</a> for your device, firmware and region</li>
+  <li>The title ID and version of the <a href="https//pastebin.com/raw/NxMrrjqw:">HomeMenu.cia</a> for your device, firmware and region</li>
   </ul>
 <h3>Section I - Preperation Work</h3>
 <ol>
-  <li>Download and extract the contents of <code>3DNUS1.9.rar</code></li>
   <li>Download and extract the contents of <code>HMRT_Dev_Build_v0.7.7z</code></li>
   <li>Download and install HxD, or alternatively download and extract the portable version</li>
   <li>Download and extract the contents of <code>MSBT.Editor.Reloaded.v0.9.8.rar</code></li>
   <li>Download and install Cheat Engine 6.6</li>
   <li>Download HME Positions by DeKay</li>
-  <p class="blue"><a href="http://i.imgur.com/EQBcu73.png"><img src="http://i.imgur.com/EQBcu73.png"></a></p>
+  <p class="blue"><a href="http://i.imgur.com/EQBcu73.png"><img src="http://i.imgur.com/EQBcu73.png"></a><br>Minus <code>3DNUS.exe<code></p>
 </ol>
 <h3>Section II - Decompressing the <code>HomeMenu.cia</code></h3>
 <p>In this section we will be downloading, decrypting, and decompressing your device-specific <code>HomeMenu.cia</code> in preparation for the editing process.</p>
 <ol>
-  <li>Launch 3DNUS and enter the title ID and version of your Home Menu</li>
-  <li>Wait for the download to finish and close the program</li>
-  <li>Rename the <code>&lt;titleID&gt;.cia</code> to <code>HomeMenu.cia</code> and place it anywhere onto your SD card</li>
   <li>Insert the SD Card into your device</li>
-  <li>Launch your device and enter <b>GodMode9</b> or <b>Decrypt9</b>, depending on what you use</li>
-  <ul>
-    <li><b>GodMode9</b>: Press (A) on <code>HomeMenu.cia</code> &#8594; CIA image options &#8594; Decrypt file (...) &#8594; Decrypt inplace</li>
-    <li><b>Decrypt9</b>: Content Decryptor Options &#8594; CIA File Options &#8594; CIA Decryptor (Deep)</li>
+  <li>Launch your device and enter GodMode9</li>
+  <ul><li>Navigate to [1:] SYSNAND CTRNAND</li>
+    <li>Navigate to <code>title</code></li>
+    <li>Navigate to <code>00040030</code></li>
+    <li>Navigate to the last 8 digits corresponding to your region:</ul>
+  <ul><li>USA: <code>00008F02</code></li></ul>
+  <li>EUR: <code>00009802</code></li>
+  <li>JPN: <code>00008202</code></li>
   </ul>
-  <li>Once the <code>HomeMenu.cia</code> has been decrypted, turn off your system and insert your SD card into your computer</li>
-  <li>Put the <code>HomeMenu.cia</code> in the same folder as the Home Menu Rebuilding Tool</li>
+  <li>Navigate to <code>content</code></li>
+  <li>Press (A) on the <code>.tmd</code> file &#8594; MD file options... &#8594; Build CIA (standard)</li>
+  <li>Turn off your system and insert your SD card into your computer</li>
+  <li>Rename the dumped <code>.cia</code> to <code>HomeMenu.cia</code> and place in the same folder as the Home Menu Rebuilding Tool</li>
   <li>Launch the Home Menu Rebuilding Tool and press (8)</li>
   <p class="blue"><a href="http://i.imgur.com/NUpNu78.png"><img src="http://i.imgur.com/NUpNu78.png"></a></p>
 </ol>
@@ -235,10 +236,9 @@
    </ul>
   <li>Move the <code>HomeMenu_edited.cia</code> to your SD Card</li>
   <li>Remove the SD Card from your computer and insert it into your device</li>
-  <li>Launch your device and enter GodMode9 or Decrypt9, depending on what you use</li>
+  <li>Launch your device and enter GodMode9</li>
   <ul>
-      <li><b>GodMode9</b>: Press (A) on <code>HomeMenu_edited.cia</code> &#8594; CIA image options &#8594; Encrypt file (...) &#8594; Encrypt inplace</li>
-      <li><b>Decrypt9</b>: Content Decryptor Options &#8594; CIA File Options &#8594; CIA Encryptor (NCCH)</li>
+      <li>: Press (A) on <code>HomeMenu_edited.cia</code> &#8594; CIA image options &#8594; Encrypt file (...) &#8594; Encrypt inplace</li>
   </ul> 
   <li>Restart your device and install the <b>encrypted</b> <code>.cia</code> file with your favorite <code>.cia</code> installer. If no error occurs, reset your device manually</li>
   <li>You should now have your custom Home Menu installed!</li>
